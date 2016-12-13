@@ -3,8 +3,7 @@ class Gitpage < Formula
   homepage "https://github.com/smithbh/gitpage"
   url "https://github.com/smithbh/gitpage/archive/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "2d23057efc27debedf4de2222b8939c391dee01bae9f4f9c192b463d7b8ae1eb"
-
+  sha256 "dd16ecbce4218a879e1891b26c189d359ed754fa90a8cf10f57dbf7fa920e3c2""
   def install
     bin.install "gitpage"
   end
