@@ -1,9 +1,9 @@
 class Zcash < Formula
   desc "Pre-compiled zcash binaries for OSX."
   homepage "https://github.com/smithbh/zcash"
-  url "https://github.com/smithbh/zcash/archive/v0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "046df7827cf33accb5e889758cea2684da2a2946c6dd72259459cf24c44b856c"
+  url "https://github.com/smithbh/zcash/archive/v0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "bf83e79d8daa37972cc40b9d25c5678024078c7863b6cb8a8206142d8492a8f5"
 
   bottle do
     cellar :any
