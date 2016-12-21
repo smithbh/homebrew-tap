@@ -12,8 +12,8 @@ class Zcash < Formula
     bin.install "fetch-params.sh"
     bin.install "spawn-cli.osascript"
     mkdir_p ENV["HOME"]/".zcash/"
-    "#{ENV["HOME"]}/.zcash".mkpath
-    Pathname.new("#{ENV["HOME"]}/.zcash/zcash.conf").write "#zcash conf"
+    mkpath("#{ENV["HOME"]}/.zcash")
+    touch("#{ENV["HOME"]}/.zcash/zcash.conf")
   end
 
   test do
