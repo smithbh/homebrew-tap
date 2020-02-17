@@ -1,9 +1,9 @@
 class Gitpage < Formula
   desc "Open the git repository page quickly from within a project."
   homepage "https://github.com/smithbh/gitpage"
-  url "https://github.com/smithbh/gitpage/archive/0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "2c8570bd09e5d0396d6064d8493532bbc88f394b877e149fd9b25fab4d734fc8"
+  url "https://github.com/smithbh/gitpage/archive/0.0.3.tar.gz"
+  version "0.0.3"
+  sha256 "76ced82d910f786e5c5bfd7facdca451f1aeb0fec12ef95d4f2f4d118c3aea29"
   def install
     bin.install "gitpage"
   end
