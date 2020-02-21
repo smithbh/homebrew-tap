@@ -1,9 +1,9 @@
 class Secdel < Formula
   desc "Securely delete files using military-grade forensic standards."
   homepage "https://github.com/smithbh/secdel"
-  url "https://github.com/smithbh/secdel/archive/0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "5fd260355b0ad9559c62538b9e98572cab82d781c2701e98c5a12bf990b4fc47"
+  url "https://github.com/smithbh/secdel/archive/0.0.3.tar.gz"
+  version "0.0.3"
+  sha256 "ed8027ce17f0e4e7996d3c20459f7263395f450b522173eda042e990ce65a61f"
   def install
     bin.install "secdel"
   end
