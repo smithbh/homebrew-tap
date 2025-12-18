@@ -3,7 +3,7 @@ class Digtor < Formula
   homepage "https://github.com/smithbh/digtor"
   url "https://github.com/smithbh/digtor/archive/0.0.4.tar.gz"
   version "0.0.4"
-  sha256 "a1598f2b65d1ba2f1ed9300800955ca1a967d683e323628f1d8f8e26536ca977"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
   def install
     bin.install "digtor"
