@@ -1,4 +1,4 @@
-class Secdel < Formula
+class Nometa < Formula
   desc "Perform a deep sanitization of file metadata."
   homepage "https://github.com/smithbh/nometa"
   url "https://github.com/smithbh/nometa/archive/0.0.1.tar.gz"
